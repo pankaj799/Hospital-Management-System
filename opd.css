@@ -1,0 +1,13 @@
+body
+{
+    background-image:url("images/hospital images/afterglow-background-backlit-289618.jpg");
+    background-size: cover;
+    color: aliceblue;
+}
+h1{
+	color: #006CAE;
+    font-size: 40px; }
+h2{
+	color:  #006CAE;
+	font-size: 30px;
+}

@@ -1,0 +1,19 @@
+body
+{
+    background-image: back.jpg;
+     background-size: cover;
+}
+h1{
+
+background-color: cadetblue;
+    font-family: monospace;
+    color: navy;
+    font-size: 50px;
+}
+h2
+{
+    font-family: monospace;
+    color: black;
+    font-size: 20px;
+    background-color: cadetblue;
+}

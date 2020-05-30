@@ -1,0 +1,628 @@
+<html><head>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+    
+    
+</style>
+    </head>
+    <body>
+        <button onclick="myFunction()">Hey!Click on me.</button>
+
+<script>
+function myFunction() {
+    alert("You have entered the opd and ipd details!");
+}
+</script>
+   
+        <h1><u>Hospital OPD and IPD Details</u></h1>
+     <h2>*No. of OPD (Out Patients Department) Patients in the last calendar year (i.e.1st Jan - 31st Dec )</h2>
+        <table style="width:100%">
+    
+            
+    <tbody><tr>
+    <th>S No.</th>
+        <th>Name of the Departments</th>
+        <th>Jan</th>
+        <th>Feb</th>
+        <th>Mar</th>
+         <th>Apr</th>
+         <th>May</th>
+         <th>June</th>
+         <th>July</th>
+         <th>Aug</th>
+         <th>Sep</th>
+         <th>Oct</th>
+         <th>Nov</th>
+        <th>Dec</th>
+        </tr><tr> <td>1.</td>
+        <td id="demo" onmouseover="mouseOver()" onmouseout="mouseOut()">CASUALTY</td>
+           
+ 
+           
+                             <td>23</td>
+              <td>34</td>
+              <td>34</td> 
+            <td>33</td>
+              <td>34</td>
+              <td>56</td>
+              <td>56</td>
+              <td>77</td>
+              <td>88</td>
+              <td>79</td>
+              <td>21</td>  
+            <td>33</td>
+            </tr>
+            
+            <tr>
+            <td>2.</td>
+                <td id="demo1" onmouseover="mouseOver1()" onmouseout="mouseOut1()">ANEASTHETICS</td>
+                  <td>22</td>
+              <td>45</td>
+              <td>66</td> 
+            <td>77</td>
+              <td>66</td>
+              <td>34</td>
+              <td>22</td>
+              <td>44</td>
+              <td>44</td>
+              <td>11</td>
+              <td>22</td>  
+            <td>11</td>
+               </tr>
+ 
+                <tr>
+            <td>3.</td>
+                    <td id="demo2" onmouseover="mouseOver2()" onmouseout="mouseOut2()">CARDIOLOGY </td>
+                  <td>22</td>
+              <td>4</td>
+              <td>56</td> 
+            <td>7</td>
+              <td>77</td>
+              <td>8</td>
+              <td>6</td>
+              <td>44</td>
+              <td>21</td>
+              <td>22</td>
+              <td>3</td>  
+            <td>4</td>
+                    </tr><tr>
+            <td>4.</td>
+                        <td id="demo3" onmouseover="mouseOver3()" onmouseout="mouseOut3()">GERIATRICS</td>
+                  <td>34</td>
+              <td>44</td>
+              <td>5</td> 
+            <td>55</td>
+              <td>22</td>
+              <td>44</td>
+              <td>3</td>
+              <td>45</td>
+              <td>66</td>
+              <td>67</td>
+              <td>56</td>  
+            <td>34</td>
+                        </tr><tr>
+            <td>5.</td>
+                            <td id="demo4" onmouseover="mouseOver4()" onmouseout="mouseOut4()">GENERAL SURGERY</td>
+                  <td>21</td>
+              <td>22</td>
+              <td>34</td> 
+            <td>33</td>
+              <td>34</td>
+              <td>56</td>
+              <td>5</td>
+              <td>55</td>
+              <td>44</td>
+              <td>45</td>
+              <td>4</td>  
+            <td>44</td>
+                            </tr><tr>
+            <td>6.</td>
+                                <td id="demo5" onmouseover="mouseOver5()" onmouseout="mouseOut5()">GYNAECOLOGY</td>
+                  <td>34</td>
+              <td>34</td>
+              <td>12</td> 
+            <td>13</td>
+              <td>23</td>
+              <td>34</td>
+              <td>22</td>
+              <td>33</td>
+              <td>34</td>
+              <td>43</td>
+              <td>3</td>  
+            <td>33</td>
+                                </tr><tr>
+            <td>7.</td>
+                                    <td id="demo6" onmouseover="mouseOver6()" onmouseout="mouseOut6()">HAEMATOLOGY</td>
+                  <td>33</td>
+              <td>32</td>
+              <td>31</td> 
+            <td>45</td>
+              <td>45</td>
+              <td>67</td>
+              <td>66</td>
+              <td>66</td>
+              <td>78</td>
+              <td>22</td>
+              <td>21</td>  
+            <td>11</td>
+                                    </tr><tr>
+                                        
+            <td>8.</td>
+                                        <td id="demo7" onmouseover="mouseOver7()" onmouseout="mouseOut7()">NEUROLOGY </td>
+                  <td>11</td>
+              <td>11</td>
+              <td>34</td> 
+            <td>44</td>
+              <td>3</td>
+              <td>3</td>
+              <td>5</td>
+              <td>56</td>
+              <td>6</td>
+              <td>6</td>
+              <td>6</td>  
+            <td>11</td>
+                                        </tr><tr>
+            
+    </tr>
+        <script>
+       
+
+function mouseOver() {
+    document.getElementById("demo").style.color = "red";
+}
+
+function mouseOut() {
+    document.getElementById("demo").style.color = "black";
+}
+function mouseOver1() {
+    document.getElementById("demo1").style.color = "navy";
+}
+
+function mouseOut1() {
+    document.getElementById("demo1").style.color = "black";
+}
+            function mouseOver2() {
+    document.getElementById("demo2").style.color = "green";
+}
+
+function mouseOut2() {
+    document.getElementById("demo2").style.color = "black";
+}
+function mouseOver3() {
+    document.getElementById("demo3").style.color = "red";
+}
+
+function mouseOut3() {
+    document.getElementById("demo3").style.color = "black";
+}
+            function mouseOver4() {
+    document.getElementById("demo4").style.color = "orange";
+}
+
+function mouseOut4() {
+    document.getElementById("demo4").style.color = "black";
+}
+function mouseOver5() {
+    document.getElementById("demo5").style.color = "pink";
+}
+
+function mouseOut5() {
+    document.getElementById("demo5").style.color = "black";
+}
+            function mouseOver6() {
+    document.getElementById("demo6").style.color = "blue";
+}
+
+function mouseOut6() {
+    document.getElementById("demo6").style.color = "black";
+}
+function mouseOver7() {
+    document.getElementById("demo7").style.color = "yellow";
+}
+
+function mouseOut7() {
+    document.getElementById("demo7").style.color = "black";
+}
+            </script> 
+
+            
+    
+        </tbody></table>
+            <h5>Grand Total=400</h5>
+            <br>
+            <br>
+<h2>
+*No. of IPD (In Patients Department) Patients in the last calendar year (i.e.1st Jan - 31st Dec )
+</h2>
+            <table style="width:100%">
+    <tbody><tr>
+    <th>S No.</th>
+        <th>Name of the Departments</th>
+        <th>Jan</th> 
+        <th>Feb</th>
+         <th>Mar</th>
+         <th>Apr</th>
+         <th>May</th>
+         <th>June</th>
+         <th>July</th>
+         <th>Aug</th>
+         <th>Sep</th>
+         <th>Oct</th>
+         <th>Nov</th>
+        <th>Dec</th>
+        </tr><tr>
+            <td>1.</td>
+            <td id="demo8" onmouseover="mouseOver8()" onmouseout="mouseOut8()">CASUALTY</td>
+                  <td>11</td>
+              <td>7</td>
+              <td>74</td> 
+            <td>4</td>
+              <td>3</td>
+              <td>5</td>
+              <td>6</td>
+              <td>7</td>
+              <td>8</td>
+              <td>9</td>
+              <td>10</td>  
+            <td>11</td>
+            
+            
+            </tr><tr>
+            <td>2.</td>
+                <td id="demo9" onmouseover="mouseOver9()" onmouseout="mouseOut9()">ANEASTHETICS</td>
+                  <td>11</td>
+              <td>12</td>
+              <td>12</td> 
+            <td>13</td>
+              <td>15</td>
+              <td>16</td>
+                <td>17</td>
+              <td>3</td>
+              <td>3</td>
+              <td>2</td>
+              <td>12</td>  
+            <td>11</td>
+                
+                </tr><tr>
+            <td>3.</td>
+                    <td id="demo10" onmouseover="mouseOver10()" onmouseout="mouseOut10()">UROLOGY</td>
+                  <td>11</td>
+              <td>12</td>
+              <td>14</td> 
+            <td>11</td>
+              <td>12</td>
+              <td>11</td>
+              <td>11</td>
+              <td>12</td>
+              <td>11</td>
+              <td>23</td>
+              <td>22</td>  
+            <td>45</td>
+                    </tr><tr>
+            <td>4.</td>
+                        <td id="demo11" onmouseover="mouseOver11()" onmouseout="mouseOut11()"> ORTHOPEDICS</td>
+                  <td>12</td>
+              <td>1</td>
+              <td>2</td> 
+            <td>3</td>
+              <td>4</td>
+              <td>5</td>
+              <td>6</td>
+              <td>6</td>
+              <td>7</td>
+              <td>8</td>
+              <td>9</td>  
+            <td>11</td>
+                        </tr><tr>
+            <td>5.</td>
+                            <td id="demo12" onmouseover="mouseOver12()" onmouseout="mouseOut12()"> OPTHALMOLOGY</td>
+                  <td>11</td>
+              <td>11</td>
+              <td>12</td> 
+            <td>13</td>
+              <td>11</td>
+              <td>16</td>
+              <td>17</td>
+              <td>18</td>
+              <td>15</td>
+              <td>34</td>
+              <td>35</td>  
+            <td>22</td>
+                            </tr><tr>
+            <td>6.</td>
+                                <td id="demo13" onmouseover="mouseOver13()" onmouseout="mouseOut13()">PSYCHIATRY</td>
+                  <td>23</td>
+              <td>22</td>
+              <td>1</td> 
+            <td>2</td>
+              <td>3</td>
+              <td>4</td>
+              <td>5</td>
+              <td>6</td>
+              <td>7</td>
+              <td>8</td>
+              <td>9</td>  
+            <td>10</td>
+                                </tr><tr>
+            <td>7.</td>
+                                    <td id="demo14" onmouseover="mouseOver14()" onmouseout="mouseOut14()">NEUROLOGY</td>
+                  <td>11</td>
+              <td>12</td>                                    <td>12</td>
+        <td>10</td>
+              
+                                    <td>13</td>
+        <td>3</td>
+                                    <td>34</td>
+              <td>22</td>
+              <td>34</td>
+              <td>33</td>
+              <td>2</td>  
+            <td>11</td>
+                                    </tr><tr>
+                                        
+            <td>8.</td>
+                                        <td id="demo15" onmouseover="mouseOver15()" onmouseout="mouseOut15()">GERIATRICS</td>
+                  <td>1</td>
+              <td>2</td>
+              <td>3</td> 
+            <td>4</td>
+              <td>5</td>
+              <td>6</td>
+              <td>6</td>
+              <td>7</td>
+              <td>8</td>
+              <td>9</td>
+              <td>10</td>  
+            <td>11</td>
+                                        </tr><tr>
+            
+    </tr>
+        <script>
+       
+
+function mouseOver8() {
+    document.getElementById("demo8").style.color = "red";
+}
+
+function mouseOut8() {
+    document.getElementById("demo8").style.color = "black";
+}
+function mouseOver9() {
+    document.getElementById("demo9").style.color = "navy";
+}
+
+function mouseOut9() {
+    document.getElementById("demo9").style.color = "black";
+}
+            function mouseOver10() {
+    document.getElementById("demo10").style.color = "navy";
+}
+
+function mouseOut10() {
+    document.getElementById("demo10").style.color = "black";
+}
+function mouseOver11() {
+    document.getElementById("demo11").style.color = "red";
+}
+
+function mouseOut11() {
+    document.getElementById("demo11").style.color = "black";
+}
+            function mouseOver12() {
+    document.getElementById("demo12").style.color = "orange";
+}
+
+function mouseOut12() {
+    document.getElementById("demo12").style.color = "black";
+}
+function mouseOver13() {
+    document.getElementById("demo13").style.color = "green";
+}
+
+function mouseOut13() {
+    document.getElementById("demo13").style.color = "black";
+}
+            function mouseOver14() {
+    document.getElementById("demo14").style.color = "blue";
+}
+
+function mouseOut14() {
+    document.getElementById("demo14").style.color = "black";
+}
+function mouseOver15() {
+    document.getElementById("demo15").style.color = "purple";
+}
+
+function mouseOut15() {
+    document.getElementById("demo15").style.color = "black";
+}
+            </script> 
+
+
+            
+    
+        </tbody></table>
+            <h5>Grand Total=388</h5>
+        <p>
+Note:	To calculate total number of bed days occupied of the months please calculate the date wise total number of patients, remained on bed at midnight.</p>
+            <br>
+            <br>
+            <h2>
+*Details of Total Bed Days Occupied in the last calendar year (i.e.1st Jan - 31st Dec )</h2>
+            <table style="width:100%">
+    <tbody><tr>
+    <th>S No.</th>
+        <th>Name of the Departments</th>
+        <th>Jan</th> 
+        <th>Feb</th>
+         <th>Mar</th>
+         <th>Apr</th>
+         <th>May</th>
+         <th>June</th>
+         <th>July</th>
+         <th>Aug</th>
+         <th>Sep</th>
+         <th>Oct</th>
+         <th>Nov</th>
+        <th>Dec</th>
+        </tr><tr>
+            <td>1.</td>
+                                            <td id="demo16" onmouseover="mouseOver16()" onmouseout="mouseOut16()">GERIATRICS</td>
+                  <td>1</td>
+              <td>2</td>
+              <td>3</td> 
+            <td>4</td>
+              <td>4</td>
+              <td>5</td>
+              <td>66</td>
+              <td>7</td>
+              <td>44</td>
+              <td>5</td>
+              <td>3</td>  
+            <td>2</td>
+            
+            
+            </tr><tr>
+            <td>2.</td>
+                <td id="demo17" onmouseover="mouseOver17()" onmouseout="mouseOut17()">GASTROENTEROLOGY</td>
+                  <td>2</td>
+              <td>2</td>
+              <td>2</td> 
+            <td>23</td>
+              <td>22</td>
+              <td>22</td>
+              <td>22</td>
+              <td>21</td>
+              <td>11</td>
+              <td>11</td>
+              <td>11</td>  
+            <td>11</td>
+                
+                </tr><tr>
+            <td>3.</td>
+                    <td id="demo18" onmouseover="mouseOver18()" onmouseout="mouseOut18()">CRITICALC ARE</td>
+                  <td>12</td>
+              <td>12</td>
+              <td>11</td> 
+            <td>11</td>
+              <td>23</td>
+              <td>44</td>
+              <td>44</td>
+              <td>4</td>
+              <td>5</td>
+              <td>6</td>
+              <td>7</td>  
+            <td>88</td>
+                    </tr><tr>
+            <td>4.</td>
+                        <td id="demo19" onmouseover="mouseOver19()" onmouseout="mouseOut19()">CASUALTY</td>
+                  <td>2</td>
+              <td>3</td>
+              <td>4</td> 
+            <td>5</td>
+              <td>6</td>
+              <td>6</td>
+              <td>7</td>
+              <td>8</td>
+              <td>9</td>
+              <td>10</td>
+              <td>11</td>  
+            <td>11</td>
+                        </tr><tr>
+            <td>5.</td>
+                            <td id="demo20" onmouseover="mouseOver20()" onmouseout="mouseOut20()">CARDIOLOGY</td>
+                  <td>22</td>
+              <td>23</td>
+              <td>22</td> 
+            <td>21</td>
+              <td>1</td>
+              <td>2</td>
+              <td>11</td>
+              <td>12</td>
+              <td>11</td>
+              <td>12</td>
+              <td>12</td>  
+            <td>13</td>
+                            </tr><tr>
+            <td>6.</td>
+                                <td id="demo21" onmouseover="mouseOver21()" onmouseout="mouseOut21()">GERIATRICS</td>
+                                               
+                  <td>23</td>
+              <td>22</td>
+              <td>11</td> 
+            <td>12</td>
+              <td>11</td>
+              <td>11</td>
+              <td>15</td>
+              <td>15</td>
+              <td>4</td>
+              <td>6</td>
+              <td>22</td>  
+            <td>22</td>
+                            
+            
+                                        </tr><tr>
+            
+    </tr>
+                <script>
+       
+
+function mouseOver16() {
+    document.getElementById("demo16").style.color = "red";
+}
+
+function mouseOut16() {
+    document.getElementById("demo16").style.color = "black";
+}
+                    function mouseOver17() {
+    document.getElementById("demo17").style.color = "navy";
+}
+
+function mouseOut17() {
+    document.getElementById("demo17").style.color = "black";
+}
+                    function mouseOver18() {
+    document.getElementById("demo18").style.color = "orange";
+}
+
+function mouseOut18() {
+    document.getElementById("demo18").style.color = "black";
+}
+                    function mouseOver19() {
+    document.getElementById("demo19").style.color = "yellow";
+}
+
+function mouseOut19() {
+    document.getElementById("demo19").style.color = "black";
+}
+                    function mouseOver20() {
+    document.getElementById("demo20").style.color = "green";
+}
+
+function mouseOut20() {
+    document.getElementById("demo20").style.color = "black";
+}
+                    function mouseOver21() {
+    document.getElementById("demo21").style.color = "purple";
+}
+
+function mouseOut21() {
+    document.getElementById("demo21").style.color = "black";
+}
+        </script>
+ 
+                </tbody>
+                
+
+            
+    
+        </table>
+        </body></html>

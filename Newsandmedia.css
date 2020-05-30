@@ -1,0 +1,129 @@
+*{
+	width: 100%;
+	padding: 0;
+	margin: 0; 
+	text-decoration: none;
+	font-family: 'Gill Sans MT', sans-serif;
+}
+body{
+	width: 100%;
+	padding: 0;
+	overflow-x: hidden;
+	margin: 0;
+}
+#heading{
+
+	width: 100%;
+	height: 150px;
+	background-color: white;
+	color: #00CAE1;
+}
+#logo{
+	padding-left: 60px;
+	width: 150px;
+	height: auto;
+}
+#heading1{
+	width: 20%;
+	height: 150px;
+	float: left;
+}
+#heading3{
+	width: 80%;
+	height: 100px;
+	padding: 25px;
+	text-align: center;
+	font-size: 70px;
+}
+#menu{
+	width: 1309px;
+	height: 20px;
+	padding: 20px;
+	background-color: #43A2E1;
+	position: sticky;
+	top: 0px;
+	opacity: .9;
+	color: black;
+}
+.menucontent{
+	text-align: center;
+	font-size: 20px;
+	padding-left: 30px; 
+	color: black;
+}
+.menucontent:hover{
+	text-align: center;
+	padding:18px;
+	font-size: 20px;
+	color: black;
+	background-color: white;
+	transition: all .7s;
+}
+#container1{
+	width: 100%;
+	height: 600px;
+}
+#container11{
+	position: absolute;
+	width: 100%;
+	height: 500px;
+}
+#container12{
+	width: 100%;
+	height: 90px;
+	position: relative;
+	top: 373px;
+	color: white;
+	background: rgba(0,0,0,0.4);
+	padding: 20px;
+	float: left;
+	padding-left: 30px;
+}
+#container2{
+	width: 100%;
+	height: auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #549FA6;
+}
+#container21{
+	width: 100%;
+	padding: 20px;
+}
+#container22{
+	width: 90%;
+	padding: 30px;
+	color: black;
+}
+#container3{
+	display: grid;
+	background-image: url("images/background images/background-black-coffee-caffeine-938960.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 2.5%; 
+	grid-template-columns: 20% 5% 20% 5% 20% 5% 20%;
+}
+.container31{
+	background: rgba(0,0,0,0.4);
+	color: white;
+	margin-top: 70px;
+	margin-bottom: 50px;
+	box-shadow: rgba(.8,.8,.8,.8);
+	width: 100%;
+	text-align: center;
+	padding: 20px;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+.container31:hover{
+	background: rgba(0,0,0,0.4);
+	color: #46EC6E;
+	box-shadow: rgba(.8,.8,.8,.8);
+	width: 100%;
+	text-align: center;
+	padding: 20px;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
